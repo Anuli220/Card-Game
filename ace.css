@@ -1,0 +1,125 @@
+/* body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(195, 0, 221);
+    color: rgb(0, 18, 34);
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button{
+    border-radius: 3rem;
+    text-decoration: none;
+    margin: 10px;
+}
+
+button{
+    border-radius: 3rem;
+    background-color: rgb(0, 18, 34);
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    transition: ease-in;
+    min-width: 140px;
+    text-align: center;
+    white-space: nowrap;
+} */
+
+body{
+    background: midnightblue;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+h1{
+    margin-bottom: 2.2rem;
+    font-size: 2.2rem;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+.card{
+    font-size: 70px;
+    width: 140px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.buttons{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    background: crimson;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    min-width: 140px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+button:hover:not(:disabled){
+    background: red;
+    transform: scale(1.05);
+}
+
+button:disabled{
+    background: grey;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.scores{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 22px;
+    flex-wrap: wrap;
+}
+
+.scores div{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    border-radius: 10px;
+    min-width: 160px;
+}
+
+.winner{
+    /* margin-top: 25px; */
+    font-size: 30px;
+    color: gold;
+    font-weight: bold;
+    box-shadow: 0 0 10px goldenrod;
+    text-align: center;
+    margin: 30px 0 0 20px;
+}

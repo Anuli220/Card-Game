@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="ace.css">
+</head>
+
+<body>
+    <h1>Card Game</h1>
+    <!-- <h1>
+        <div class="cardDisplay">
+            <div class="c"></div>
+        </div>
+    </h1> -->
+    <div class="card-container">
+        <div class="card" id="card1">?</div>
+        <div class="card" id="card2">?</div>
+    </div>
+    <div class="buttons">
+            <button id="drawBtn" onclick="drawCards()">Draw Cards</button>
+            <button onclick="resetGame()">Reset</button>
+        </div>
+    <div class="scores">
+        <div>
+            Player 1 Score:
+            <span id="score1">0</span>
+        </div>
+        <div>
+            Player 2 Score:
+            <span id="score2">0</span>
+        </div>
+        <div class="winner" id="winnerMessage"></div>
+    </div>
+    
+
+    <!-- create a div with a class of card container and inside this div, create 2 separate divs but with the same class name of card but different id names with card1 and card 2 -->
+    <!-- create a button div and inside that create 2 buttons; the first one is a draw cards button and attach an onclick function of draw cards to it and also an id of draw btn. and create another button reset button with an onclick function of resetGame -->
+    <!-- create another div with a class of scores and inside that scores, create 2 divs with ids score 1 and score 2 with a content of player 1 score and player 2 score -->
+    <!-- create an empty content div with a class of winner and an id of winnerMessage -->
+    <!-- try to style it till the winner class -->
+    <script src="ace.js"></script>
+</body>
+
+</html>
